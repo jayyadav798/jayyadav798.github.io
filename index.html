@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jay Yadav | Portfolio</title>
+
+  <!-- TailwindCSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- FontAwesome -->
+  <script src="https://kit.fontawesome.com/a2e0e6ad54.js" crossorigin="anonymous"></script>
+
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+  </style>
+</head>
+
+<body class="bg-gray-900 text-gray-200 transition-colors duration-300" id="themeBody">
+
+<!-- NAVBAR -->
+<nav class="fixed top-0 w-full bg-gray-800/70 backdrop-blur-md shadow-lg z-50 py-4">
+  <div class="max-w-6xl mx-auto flex justify-between items-center px-6">
+    <h1 class="text-xl font-semibold text-blue-400">Jay Yadav</h1>
+    <div class="flex items-center gap-6">
+      <button id="themeToggle" class="text-xl text-yellow-300 hover:scale-110 transition">
+        <i class="fas fa-sun"></i>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO SECTION -->
+<section class="pt-32 pb-20 text-center">
+  <img src="https://avatars.githubusercontent.com/u/000000?v=4" class="w-24 h-24 sm:w-32 sm:h-32 rounded-full mx-auto shadow-lg border border-gray-700 animate-pulse"" alt="Profile">
+  <h1 class="text-4xl sm:text-5xl font-bold mt-6 text-blue-400 animate-fadeIn">Jay Yadav</h1>
+  <p class="text-base sm:text-lg mt-3 text-gray-300">Frontend Developer • React.js Specialist • Java Enthusiast</p>
+  <!-- Download Resume Button -->
+  <div class="mt-6">
+    <a href="./Jay_Yadav_Resume.pdf" download class="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-500 text-white font-semibold px-6 py-3 rounded-lg shadow-lg transition">
+      <i class="fas fa-download"></i> Download Resume
+    </a>
+  </div>
+
+  <div class="mt-6 text-3xl flex justify-center gap-6">
+    <a href="https://linkedin.com/in/jayyadav2000" target="_blank" class="text-blue-400 hover:text-blue-300 transition"><i class="fab fa-linkedin"></i></a>
+    <a href="https://github.com/jayyadav798" target="_blank" class="text-gray-300 hover:text-white transition"><i class="fab fa-github"></i></a>
+    <a href="mailto:viratydv2000@gmail.com" class="text-red-400 hover:text-red-300 transition"><i class="fas fa-envelope"></i></a>
+  </div>
+</section>
+
+<!-- MAIN CONTENT -->
+<div class="max-w-5xl mx-auto p-6 space-y-12">
+
+  <!-- CONTACT -->
+  <section class="bg-gray-800 p-6 rounded-xl shadow-lg hover:shadow-2xl transition">
+    <h2 class="text-2xl font-semibold text-blue-400 mb-4 flex items-center gap-2"><i class="fas fa-user"></i> Contact</h2>
+    <p><i class="fas fa-phone text-green-400"></i> +91 7088996234</p>
+    <p><i class="fas fa-map-marker-alt text-red-400"></i> Firozabad, Uttar Pradesh, India</p>
+    <p><i class="fas fa-envelope text-yellow-400"></i> <a href="mailto:viratydv2000@gmail.com" class="text-blue-300 hover:underline">viratydv2000@gmail.com</a></p>
+  </section>
+
+  <!-- EDUCATION -->
+  <section class="bg-gray-800 p-6 rounded-xl shadow-lg hover:shadow-2xl transition">
+    <h2 class="text-2xl font-semibold text-blue-400 mb-4 flex items-center gap-2"><i class="fas fa-graduation-cap"></i> Education</h2>
+    <p class="mb-2"><strong>Bachelor Of Technology</strong> — Lovely Professional University (2020–2024)</p>
+    <p><strong>Higher Secondary</strong> — ST.M Public School (2019–2020)</p>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="bg-gray-800 p-6 rounded-xl shadow-lg hover:shadow-2xl transition">
+    <h2 class="text-2xl font-semibold text-blue-400 mb-4 flex items-center gap-2"><i class="fas fa-code"></i> Technical Skills</h2>
+    <div class="flex flex-wrap gap-3">
+      <span class="px-3 py-1 bg-gray-700 rounded-lg">React.js</span>
+      <span class="px-3 py-1 bg-gray-700 rounded-lg">HTML</span>
+      <span class="px-3 py-1 bg-gray-700 rounded-lg">CSS</span>
+      <span class="px-3 py-1 bg-gray-700 rounded-lg">JavaScript</span>
+      <span class="px-3 py-1 bg-gray-700 rounded-lg">MySQL</span>
+      <span class="px-3 py-1 bg-gray-700 rounded-lg">MS Office</span>
+      <span class="px-3 py-1 bg-gray-700 rounded-lg">Python</span>
+      <span class="px-3 py-1 bg-gray-700 rounded-lg">Java</span>
+      <span class="px-3 py-1 bg-gray-700 rounded-lg">Oracle</span>
+    </div>
+
+    <h2 class="text-2xl font-semibold text-blue-400 mt-8 mb-4 flex items-center gap-2"><i class="fas fa-lightbulb"></i> Soft Skills</h2>
+    <div class="flex flex-wrap gap-3">
+      <span class="px-3 py-1 bg-gray-700 rounded-lg">Problem Solving</span>
+      <span class="px-3 py-1 bg-gray-700 rounded-lg">Critical Thinking</span>
+      <span class="px-3 py-1 bg-gray-700 rounded-lg">Teamwork</span>
+      <span class="px-3 py-1 bg-gray-700 rounded-lg">Adaptability</span>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="bg-gray-800 p-6 rounded-xl shadow-lg hover:shadow-2xl transition">
+    <h2 class="text-2xl font-semibold text-blue-400 mb-6 flex items-center gap-2"><i class="fas fa-project-diagram"></i> Projects</h2>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+      <!-- CONTACTS APP -->
+      <div class="bg-gray-700 p-4 rounded-lg hover:bg-gray-600 transition shadow-md">
+        <img src="https://via.placeholder.com/400x200?text=Contacts+App" class="rounded-lg mb-3 w-full" />
+        <h3 class="text-xl font-semibold text-white flex items-center gap-2"><i class="fas fa-mobile-alt text-blue-300"></i> Contacts App</h3>
+        <ul class="text-gray-300 text-sm mt-2 list-disc ml-6 hidden" id="proj1">
+          <li>Implemented Redux for global state management.</li>
+          <li>Integrated React Navigation for smooth user flow.</li>
+          <li>Designed custom UI with reusable components.</li>
+          <li>Optimized list rendering for better performance.</li>
+        </ul>
+        <button onclick="toggleDetails('proj1', this)" class="mt-3 text-blue-300 hover:text-blue-200">Read More</button>
+        <div class="mt-4 flex gap-4 text-sm">
+          <a href="https://github.com/jayyadav798/contact-mobile-app" target="_blank" class="text-blue-400 hover:text-blue-300 flex items-center gap-1"><i class="fab fa-github"></i> GitHub</a>
+          <a href="#" class="text-green-400 hover:text-green-300 flex items-center gap-1"><i class="fas fa-globe"></i> Live Demo</a>
+        </div>
+      </div>
+
+      <!-- TESLA CLONE -->
+      <div class="bg-gray-700 p-4 rounded-lg hover:bg-gray-600 transition shadow-md">
+        <img src="https://via.placeholder.com/400x200?text=Tesla+Clone" class="rounded-lg mb-3 w-full" />
+        <h3 class="text-xl font-semibold text-white flex items-center gap-2"><i class="fas fa-car text-blue-300"></i> Tesla Clone</h3>
+        <ul class="text-gray-300 text-sm mt-2 list-disc ml-6 hidden" id="proj2">
+          <li>Developed a fully responsive Tesla-style UI.</li>
+          <li>Used ReactJS with modern hooks and component structure.</li>
+          <li>Implemented smooth scrolling and animations.</li>
+          <li>Created reusable layout components for clean spacing.</li>
+        </ul>
+        <button onclick="toggleDetails('proj2', this)" class="mt-3 text-blue-300 hover:text-blue-200">Read More</button>
+        <div class="mt-4 flex gap-4 text-sm">
+          <a href="https://github.com/jayyadav798/Team_7" target="_blank" class="text-blue-400 hover:text-blue-300 flex items-center gap-1"><i class="fab fa-github"></i> GitHub</a>
+          <a href="#" class="text-green-400 hover:text-green-300 flex items-center gap-1"><i class="fas fa-globe"></i> Live Demo</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <script>
+    function toggleDetails(id, btn) {
+      const el = document.getElementById(id);
+      const isHidden = el.classList.contains('hidden');
+      if (isHidden) {
+        el.classList.remove('hidden');
+        btn.textContent = 'Read Less';
+      } else {
+        el.classList.add('hidden');
+        btn.textContent = 'Read More';
+      }
+    }
+  </script>
+
+  <!-- CERTIFICATIONS -->
+  <section class="bg-gray-800 p-6 rounded-xl shadow-lg hover:shadow-2xl transition">
+    <h2 class="text-2xl font-semibold text-blue-400 mb-4 flex items-center gap-2"><i class="fas fa-certificate"></i> Certifications</h2>
+    <ul class="list-disc ml-6 space-y-2">
+      <li>Core Java — Coding Spoon (2023)</li>
+      <li>Unsupervised Learning • Recommenders • Reinforcement Learning — Coursera (2023)</li>
+      <li>Natural Language Processing — Coursera (2023)</li>
+    </ul>
+  </section>
+
+</div>
+
+<!-- FOOTER -->
+<footer class="text-center py-6 text-gray-500 mt-10 border-t border-gray-700">
+  © 2025 Jay Yadav • All Rights Reserved
+</footer>
+
+<!-- LIGHT/DARK MODE TOGGLE SCRIPT -->
+<script>
+  const body = document.getElementById('themeBody');
+  const toggleBtn = document.getElementById('themeToggle');
+  let dark = true;
+
+  toggleBtn.addEventListener('click', () => {
+    dark = !dark;
+    if (dark) {
+      body.classList.remove('bg-white', 'text-gray-900');
+      body.classList.add('bg-gray-900', 'text-gray-200');
+      toggleBtn.innerHTML = '<i class="fas fa-sun"></i>';
+    } else {
+      body.classList.remove('bg-gray-900', 'text-gray-200');
+      body.classList.add('bg-white', 'text-gray-900');
+      toggleBtn.innerHTML = '<i class="fas fa-moon"></i>';
+    }
+  });
+</script>
+
+</body>
+</html>
